@@ -1,0 +1,20 @@
+#name{
+    margin-left: 0.5px;
+
+}
+#insta{
+width :4%;
+height:3%;
+cursor: pointer;
+}
+#linkedin {
+    width: 3%;
+    height: 2%;
+    cursor: pointer;
+}
+#twitter {
+    width: 3%;
+    height: 2%;
+    cursor: pointer;
+    margin-left:px ;
+}
