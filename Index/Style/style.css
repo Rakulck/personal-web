@@ -364,7 +364,7 @@ html[data-w-dynpage] [data-w-cloak] {
     color: transparent !important
 }
 
-.w-webflow-badge,
+/* .w-webflow-badge,
 .w-webflow-badge * {
     position: static;
     left: auto;
@@ -459,7 +459,7 @@ html[data-w-dynpage] [data-w-cloak] {
     visibility: visible !important;
     opacity: 1 !important;
     vertical-align: middle !important
-}
+} */
 
 h1,
 h2,
