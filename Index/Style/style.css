@@ -361,6 +361,9 @@ html[data-w-dynpage] [data-w-cloak] {
     display: hidden !important;
     opacity:0;
 }
+#banner{
+    opacity: 0.20px;
+}
 
 h1,
 h2,
@@ -2399,6 +2402,7 @@ body {
     position: relative;
     z-index: 1;
     height: 56vh;
+    opacity: 0.01;
 }
 
 .white {
