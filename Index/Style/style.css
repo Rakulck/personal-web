@@ -11,6 +11,19 @@
 #socials{
     width:30px;
     height:30px;
+    border-radius: 0;
+}
+#socials-1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 0;
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+}
+#res{
+    display: flex;
+    
 }
 
 /* Generated on: Fri Aug 05 2022 06:10:09 GMT+0000 (Coordinated Universal Time) */
@@ -2278,6 +2291,13 @@ body {
     font-size: 8em;
     line-height: 0.8em;
     font-weight: 300;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+}
+.title.h1:hover{
+   font-size: 9em;
 }
 
 .title.h1.white.banner-heading {
@@ -2377,10 +2397,18 @@ color: #6445e5;}
 .nav-link {
     padding: 8px 24px;
     border-radius: 100px;
-    background-color: #161616;
+    background-color: black;
     color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: sans-serif;
+    -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
 }
-
+.nav-link:hover{
+font-size: 32px;
+}
 .brand-image {
     max-height: 32px;
 }
@@ -2406,7 +2434,8 @@ color: #6445e5;}
 .banner-image {
     position: relative;
     z-index: 1;
-    height: 56vh;
+    height: 70vh;
+    width: 100vh;
     opacity: 0.01;
 }
 
