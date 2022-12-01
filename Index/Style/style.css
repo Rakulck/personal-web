@@ -30,6 +30,103 @@ span{
     font-size: 30px;
 }
 
+.lk__container{
+    display: flex;
+    align-items: center;
+}
+
+.lang_img_container{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    margin:10px;
+    margin-top: 30px;
+    cursor: pointer;
+    animation: grow 2s ease-in-out;
+}
+
+.framework{
+    padding-left: 2px;
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        justify-content: flex-start;
+}
+.lang__img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.tool__img_container{
+    display: inline;
+   
+}
+
+.tool__img_s {
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 9px;
+    margin: 10px;
+    cursor: pointer;
+    margin-right: 100px;
+}
+@media only screen and (max-width: 345px) {
+    .tool__img{
+      width: 9px;
+       height: 9px;
+       background-color: #0082f3;
+}}
+.column {
+    width: 33.33%;
+}
+.row{
+    padding-left: 7px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.row-1{
+    padding-left: 7px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: auto;
+    animation: grow 2s ease-in;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+.row:after {
+    display: flex;
+    clear: both;
+}
+.row-1:after {
+    display: flex;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 /* Generated on: Fri Aug 05 2022 06:10:09 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
