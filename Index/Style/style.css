@@ -1,6 +1,8 @@
 #name{
     margin-left: 0.5px;
-
+}
+#name:hover{
+    color: #6445e5;
 }
 .social-logo{
     margin:0 5px;
@@ -2303,6 +2305,7 @@ body {
     left: 20%;
     top: 6%;
     font-size: 5.4em;
+    
 }
 
 .title.h1.about-title {
@@ -2310,6 +2313,8 @@ body {
     margin-bottom: 48px;
     font-size: 5.4em;
 }
+.title.h1.about-title:hover{
+color: #6445e5;}
 
 .title.h1.extra-large {
     position: -webkit-sticky;
@@ -2721,6 +2726,7 @@ body {
 
     .title.h1.about-title {
         font-size: 3em;
+        color: #6445e5;
     }
 
     .title.h2 {
@@ -2802,6 +2808,7 @@ body {
 
     .title.h1.about-title {
         font-size: 2em;
+       hover-color: #6445e5;
     }
 
     .title.h1.extra-large {
