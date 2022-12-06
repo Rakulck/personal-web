@@ -23450,5 +23450,14 @@ Webflow.require("ix2").init({
       { key: "tiny", min: 0, max: 479 },
     ],
   },
-});
+},
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+);
 
