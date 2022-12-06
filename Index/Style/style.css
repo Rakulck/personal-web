@@ -133,6 +133,9 @@
     .topnav.responsive {
         position: relative;
         background-color: transparent;
+        background: -webkit-linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #3073b8, #1098ad);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
     }
 
     .topnav.responsive a.icon {
@@ -147,7 +150,31 @@
         float: none;
         display: block;
         text-align: left;
-        background: transparent;
+      
+    }
+}
+@media screen and (max-width: 420px) {
+    .topnav.responsive {
+        position: relative;
+        /* background-color: transparent; */
+        background: -webkit-linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #3073b8, #1098ad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .topnav.responsive a.icon {
+
+        right: 10;
+        top: 0;
+        left: 10;
+        height: 30px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+
     }
 }
 #git{  
@@ -163,6 +190,9 @@
 #g{
     font-size: 80px;
 }
+@media screen and (max-width: 392px) {
+   #g{ font-size: 50px;
+}}
 #g:hover{
     background: -webkit-linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #3073b8, #1098ad);
         -webkit-background-clip: text;
@@ -192,6 +222,12 @@
     -webkit-transition: all .5s ease;
         -moz-transition: all .5s ease;
         transition: all .5s ease;
+}
+@media screen and (max-width: 422px) {
+    #socials-1{
+        width:40px;
+        height: 40px;
+    }
 }
 #res{
     display: flex;
